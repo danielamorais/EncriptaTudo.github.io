@@ -1,68 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <meta charset="utf-8">
-   <title>Página Inicial - Coletivo Encripta Tudo</title>
-   <link rel="stylesheet" type="text/css" href="css/style.css" >
-   <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="News Feed">
-</head>
-<body>
+---
+layout: default
+title: Página Inicial
+---
 
-<div class="container">
-<header class="masthead">
-   <h3 class="masthead-title">
-     <a href="">Coletivo Encripta Tudo</a>
-     <small>
-        &nbsp;&nbsp;&nbsp;<a href="/archive.html">Archive</a>
-     </small>
-     <small>
-       &nbsp;&nbsp;&nbsp;<a href="/feed.xml">Feed</a>
-     </small>
-     <small>
-       &nbsp;&nbsp;&nbsp;<a href="https://github.com/henrythemes/jekyll-minimal-theme">About</a>
-     </small>
-   </h3>
-</header>
 
-<div id="content">
-  
+{% for post in site.posts %}
 
 <article class='post'>
   <h1 class='post-title'>
-    <a href="/vapor420wave.html">
-      Cryptorave 2017: Festa para arrecandar fundos em Campinas
+    <a href="{{ site.path }}{{ post.url }}">
+      {{ post.title }}
     </a>
   </h1>
-  <div class="post-date">Apr 2, 2017</div>
-  <p>A Cryptorave é o maior evento aberto e gratuito de criptografia e segurança, neste ano será realizado nos dias 05 e 06 de maio, em São Paulo.</p>
-
-<p>São 24h de discussões, palestras e muito conteúdo sobre política, hacking, privacidade e tecnologia organizados por coletivos e voluntários mas para isso acontecer é necessário atingir a meta de R$60.000!</p>
-
-<h3 id="vapor420wave">VAPOR420WAVE</h3>
-
-<p>Faltam poucos dias para a Cryptorave tentar alcançar a meta! Estamos organizando uma festa em Barão Geraldo para arrecadar fundos para a Cryptorave, ocorrerá dia 7 de Abril às 16h até 23h.</p>
-
-<p>1º lote: R$5</p>
-
-<p>2º lote: R$7</p>
-
-<p>3º lote: R$10</p>
-
-<p>Mais informações: <a href="https://www.facebook.com/events/1694973657468404/">𝚅 𝙰 𝙿 𝙾 𝚁 𝟺 𝟸 𝟶 𝚆 𝙰 𝚅 𝙴</a></p>
-
-<h3 id="colabore-com-a-cryptorave">Colabore com a Cryptorave!</h3>
-
-<p>Para fazer sua colaboração, basta acessar:</p>
-
-<p><a href="https://www.catarse.me/cryptorave2017">Catarse.me - Cryptorave 2017</a></p>
-
+  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+  {{ post.content }}
 </article>
 
+{% endfor %}
 
-
-
-</div>
-
-</div><!-- .container -->
-</body>
-</html>

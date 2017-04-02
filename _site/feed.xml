@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>News 'n' Updates | Coletivo Encripta Tudo</title>
+  <link href="http://localhost:4000/feed.xml" rel="self"/>
+  <link href="http://localhost:4000/"/>
+  <updated>2017-04-02T17:40:30-03:00</updated>
+  <id>http://localhost:4000/</id>
+  <author>
+    <name>Coletivo Encripta Tudo</name>
+  </author>
+  <generator>Jekyll v3.4.3</generator>
+
+  
+  <entry>
+    <title>Cryptorave 2017: Festa para arrecandar fundos em Campinas</title>
+    <link href="http://localhost:4000/vapor420wave.html"/>
+    <updated>2017-04-02T00:00:00-03:00</updated>
+    <id>http://localhost:4000/vapor420wave</id>
+    <content type="html">&lt;p&gt;A Cryptorave é o maior evento aberto e gratuito de criptografia e segurança, neste ano será realizado nos dias 05 e 06 de maio, em São Paulo.&lt;/p&gt;
+
+&lt;p&gt;São 24h de discussões, palestras e muito conteúdo sobre política, hacking, privacidade e tecnologia organizados por coletivos e voluntários mas para isso acontecer é necessário atingir a meta de R$60.000!&lt;/p&gt;
+
+&lt;h3 id=&quot;vapor420wave&quot;&gt;VAPOR420WAVE&lt;/h3&gt;
+
+&lt;p&gt;Faltam poucos dias para a Cryptorave tentar alcançar a meta! Estamos organizando uma festa em Barão Geraldo para arrecadar fundos para a Cryptorave, ocorrerá dia 7 de Abril às 16h até 23h.&lt;/p&gt;
+
+&lt;p&gt;1º lote: R$5&lt;/p&gt;
+
+&lt;p&gt;2º lote: R$7&lt;/p&gt;
+
+&lt;p&gt;3º lote: R$10&lt;/p&gt;
+
+&lt;p&gt;Mais informações: &lt;a href=&quot;https://www.facebook.com/events/1694973657468404/&quot;&gt;𝚅 𝙰 𝙿 𝙾 𝚁 𝟺 𝟸 𝟶 𝚆 𝙰 𝚅 𝙴&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;colabore-com-a-cryptorave&quot;&gt;Colabore com a Cryptorave!&lt;/h3&gt;
+
+&lt;p&gt;Para fazer sua colaboração, basta acessar:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.catarse.me/cryptorave2017&quot;&gt;Catarse.me - Cryptorave 2017&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  
+</feed>
